@@ -44,14 +44,14 @@ quadratic.eqn <- function(a,b,c){
      #discriminant
   if(discriminant == 0){
     print("One solution")
-    print(-b/(4*a*c))
+    print(-b/(2*a))
      #sprintf("%.1f",-b/4*a*c)
   }
   if(discriminant > 0){
     print("Two solutions")
-    print((-b + sqrt(discriminant))/(4*a*c))
+    print((-b + sqrt(discriminant))/(2*a))
     print("and")
-    print((-b - sqrt(discriminant))/(4*a*c))
+    print((-b - sqrt(discriminant))/(2*a))
   }
     #discriminant
   
